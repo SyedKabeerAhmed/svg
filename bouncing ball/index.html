@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing ball</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            
+        }
+        
+         
+ 
+
+ 
+
+    </style>
+</head>
+
+<body>
+    <svg height="500" width="300">
+        <ellipse cx="150" cy="250" rx="30" ry="5" style="fill: rgba(160, 160, 160, 0.665);">
+            <animate attributeName="ry" values="5;10;7.5;5" dur="1s" repeatCount="indefinite" />
+            <animate attributeName="rx" values="30;45;60;45;30" dur="1s" repeatCount="indefinite" />
+            </ellipse>
+        <ellipse cx="150" cy="55" rx="50" ry="50" style="fill: hotpink; stroke:rgb(199, 52, 52); stroke-width:10px;" >
+            <animate attributeName="cy" values="55;200;55"  dur="1s" repeatCount="indefinite" />
+            <animate attributeName="ry" values="50;47.5;50;47.5;50" dur="1s" repeatCount="indefinite" />
+            <animate attributeName="rx" values="50;52.5;50;52.5;50" dur="1s" repeatCount="indefinite" />
+        </ellipse>
+       
+       </svg>
+</body>
+</html>
+
