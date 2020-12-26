@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+     
+    justify-content: center;
+    
+  
+}
+#star,
+#light1,
+#light2,
+#light3,
+#light4,
+#light5,
+#light6,
+#light7,
+#gift1,
+#gift2,
+#gift3
+{
+    fill: #0061da ;
+   
+}
+
+#star{
+    
+    fill: #0061da ;
+    stroke-width: 5px;
+    animation: glow 1.5s ease infinite;
+}
+ 
+@keyframes glow{
+    from{ stroke-width: 0px; stroke: #fff;  }
+    to{  stroke-width: 5px; stroke: #0061da;}
+}
+
+
+#light1{
+    
+    fill: red ;
+    stroke-width: 5px;
+    animation: glow-1 1.5s 1s ease infinite;
+}
+ 
+@keyframes glow-1{
+    from{ stroke-width: 0px; stroke: #fff;  }
+    to{  stroke-width: 5px; stroke: red;}
+}
+
+
+#light2{
+    
+    fill: rgb(255, 247, 0) ;
+    stroke-width: 5px;
+    animation: glow-2 1.5s 2s ease infinite;
+}
+ 
+@keyframes glow-2{
+    from{ stroke-width: 0px; stroke: #fff;  }
+    to{  stroke-width: 5px; stroke: rgb(255, 225, 0);}
+}
+
+#light3{
+    
+    fill: greenyellow ;
+    stroke-width: 5px;
+    animation: glow-3 1.5s 3s ease infinite;
+}
+ 
+@keyframes glow-3{
+    from{ stroke-width: 0px; stroke: #fff;  }
+    to{  stroke-width: 5px; stroke: greenyellow;}
+}
+
+#light4{
+    
+    fill: orange ;
+    stroke-width: 5px;
+    animation: glow-4 1.5s 4s ease infinite;
+}
+ 
+@keyframes glow-4{
+    from{ stroke-width: 0px; stroke: #fff;  }
+    to{  stroke-width: 5px; stroke: orange;}
+}
+#light5{
+    
+    fill: purple ;
+    stroke-width: 5px;
+    animation: glow-5 1.5s 5s ease infinite;
+}
+ 
+@keyframes glow-5{
+    from{ stroke-width: 0px; stroke: #fff;  }
+    to{  stroke-width: 5px; stroke: purple;}
+}
+#light6{
+    
+    fill: silver ;
+    stroke-width: 5px;
+    animation: glow-6 1.5s 6s ease infinite;
+}
+ 
+@keyframes glow-6{
+    from{ stroke-width: 0px; stroke: #fff;  }
+    to{  stroke-width: 5px; stroke: silver;}
+}
+
+#light7{
+    
+    fill: lightgreen ;
+    stroke-width: 5px;
+    animation: glow-7 1.5s 7s ease infinite;
+}
+ 
+@keyframes glow-7{
+    from{ stroke-width: 0px; stroke: #fff;  }
+    to{  stroke-width: 5px; stroke: lightgreen;}
+}
+/* light bulbs and star animation end */
+#gift-strip1,
+#gift-strip2,
+#gift-strip3,
+#gift-heart-right1,
+#gift-heart-right2,
+#gift-heart-right3,
+#gift-heart-left1,
+#gift-heart-left2,
+#gift-heart-left3{
+    fill:red;
+    
+
+}
+#gift-heart-right1,
+#gift-heart-right2,
+#gift-heart-right3,
+#gift-heart-left1,
+#gift-heart-left2,
+#gift-heart-left3{
+    stroke-width: 2px;
+    animation: glow-heart 1.5s  ease infinite;
+}
+@keyframes glow-heart{
+    from{ stroke-width: 0px; stroke: #fff;  }
+    to{  stroke-width: 2px; stroke: red;}
+}
+
+ #check1{
+      fill: #0062da00;
+     animation: check1 5s 7s infinite;
+    }
+  @keyframes check1{
+     from{ fill: #0062da00;}
+     to{ fill: #0061da;}
+  }
+
+  #check2{
+    fill: #0062da00;
+    animation: check2 5s 9s infinite;
+   }
+ @keyframes check2{
+    from{ fill: #0062da00;}
+    to{ fill: #0061da;}
+ }
+ #check3{
+    fill: #0062da00;
+    animation: check3 5s 11s infinite;
+   }
+ @keyframes check3{
+    from{ fill: #0062da00;}
+    to{ fill: #0061da;}
+ }
+
+ #laptopCircleLight{
+     fill: #fff;
+     stroke: #fff;
+     animation: circleLight 2s 8s ease-in-out infinite alternate;
+
+ }
+ @keyframes circleLight{
+     form{fill:#fff; stroke: #fff; }
+     to{ fill: #0061da; stroke: #0061da; stroke-width: 5px;}
+ }
+
+ #card1{
+    fill: rgb(255, 101, 132);
+    animation: card1 5s 10s ease-in-out infinite ;
+ }
+ @keyframes card1 {
+     0%{ fill: rgb(255, 101, 132);}
+     50%{ fill: rgb(108, 99, 255); }
+     100%{ fill: rgb(204, 204, 204); }
+ }
+
+ #card2{
+    fill: rgb(108, 99, 255);
+    animation: card2 5s 10s ease-in-out infinite ;
+ }
+ @keyframes card2 {
+     0%{fill: rgb(108, 99, 255);}
+     50%{ fill: rgb(204, 204, 204);}
+     100%{ fill: rgb(255, 101, 132); }
+ }
+
+ #card3{
+    fill: rgb(204, 204, 204);
+    animation: card3 5s 10s ease-in-out infinite ;
+ }
+ @keyframes card3 {
+     0%{fill: rgb(204, 204, 204);}
+     50%{ fill: rgb(255, 101, 132);}
+     100%{ fill: rgb(108, 99, 255); }
+ }
+
+
+ #laptopScrn{
+     fill: #000;
+     animation: laptopscrn 5s 15s ease-in-out infinite ;
+ }
+@keyframes laptopscrn{
+    form{ fill:black;}
+    to{ fill: #fff; stroke-width: 5px; stroke: #fff;}
+}
+
+#HNY-2021
+ {
+    fill: #0062da00;
+   animation: hny 0.1s 15s   infinite ;
+}
+ @keyframes hny{
+     from{ fill:#0062da00 }
+     to{ fill:#fff}
+ }
+
+ #STAY-HOME,
+ #STAY-SAFE{
+     fill: #0062da00;
+    animation: hny 0.1s 20s  infinite ;
+ }
+  @keyframes hny{
+      from{ fill:#0062da00 }
+      to{ fill:#fff}
+  }
